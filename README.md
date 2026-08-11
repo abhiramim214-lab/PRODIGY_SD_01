@@ -63,3 +63,46 @@ The user enters a temperature value and specifies the original unit. The program
 ```text
 Enter temperature: 25
 Enter original unit (C/F/K): C
+
+## Testing
+
+The program was tested using all three supported temperature units.
+
+### Test 1: Celsius
+
+Input:
+- Temperature: 25
+- Unit: C
+
+Output:
+- Celsius: 25.00 °C
+- Fahrenheit: 77.00 °F
+- Kelvin: 298.15 K
+
+### Test 2: Fahrenheit
+
+Input:
+- Temperature: 32
+- Unit: F
+
+Output:
+- Celsius: 0.00 °C
+- Fahrenheit: 32.00 °F
+- Kelvin: 273.15 K
+
+### Test 3: Kelvin
+
+Input:
+- Temperature: 273.15
+- Unit: K
+
+Output:
+- Celsius: 0.00 °C
+- Fahrenheit: 32.00 °F
+- Kelvin: 273.15 K
+
+All three conversion tests produced the expected results.
+
+## Project Status
+
+Task 01 completed successfully as part of the Prodigy Infotech Software Development Internship.
